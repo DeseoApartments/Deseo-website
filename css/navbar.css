@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: #eaeaea;
+}
+
+.navbar-item {
+    margin: 0;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-item:hover {
+    background: #dfdfdf;
+}
+
+.spacer {
+    background: #aaa;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+
+.navbar-icon {
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
